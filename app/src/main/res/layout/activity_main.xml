@@ -8,26 +8,39 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:src="@drawable/ic_logo" />
+
     <EditText
         android:id="@+id/et_lat"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal|numberSigned"
-        android:hint="@string/hnt_lat" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="154dp"
+        android:hint="@string/hnt_lat"
+        android:inputType="numberDecimal|numberSigned" />
 
     <EditText
         android:id="@+id/et_lng"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:inputType="numberDecimal|numberSigned"
-        android:layout_below="@id/et_lat"
-        android:hint="@string/hnt_lng" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="219dp"
+        android:hint="@string/hnt_lng"
+        android:inputType="numberDecimal|numberSigned" />
 
     <Button
         android:id="@+id/btn_show"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/str_btn_show"
-        android:layout_below="@id/et_lng" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="123dp"
+        android:background="#6275e3"
+        android:text="@string/str_btn_show" />
 
 </RelativeLayout>
