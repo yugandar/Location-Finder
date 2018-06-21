@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LocationMarkerLatLng</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hnt_lat">Enter Latitude</string>
+    <string name="hnt_lng">Enter Longitude</string>
+    <string name="str_btn_show">Show Location in Map</string>
+
+</resources>
